@@ -23,10 +23,10 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida
 ## Como Configurar e Executar Localmente
 1. Clone o repositório:
     git clone https://github.com/GabrielNatan2001/teste-dbm.git
-2. Restaure as dependências
+2. Restaure as dependências:
     dotnet restore
-3. Execute os testes
+3. Execute os testes:
     dotnet test
-4. Com o docker instalado na maquina rode o comando abaixo na raiz do projeto para iniciar as aplicações
+4. Com o docker instalado na maquina rode o comando abaixo na raiz do projeto para iniciar as aplicações:
     docker-compose up -d
 
