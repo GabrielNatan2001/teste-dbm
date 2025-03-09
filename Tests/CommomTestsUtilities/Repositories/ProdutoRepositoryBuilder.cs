@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Communication.Requests;
+using Domain.Entities;
 using Domain.Repositories;
 using Moq;
 
@@ -21,6 +22,11 @@ namespace CommomTestsUtilities.Repositories
         public ProdutoRepositoryBuilder WithGetAll(IEnumerable<Produto> produtos)
         {
             _repository.Setup(r => r.GetAllAsync()).ReturnsAsync(produtos);
+            return this;
+        }
+        public ProdutoRepositoryBuilder NameExists(RequestProdutoJson produto)
+        {
+            _repository.Setup(r => r.NameExists(produto.Nome)).ReturnsAsync(true);
             return this;
         }
 

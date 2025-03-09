@@ -16,6 +16,10 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida
 - Docker
 - Git
 
+## Links das imagens no docker hub
+ - https://hub.docker.com/repository/docker/gabrielnatan2001/testetecnicodbm-api/general
+ - https://hub.docker.com/repository/docker/gabrielnatan2001/testetecnicodbm-mvc/general
+
 ## Como Configurar e Executar Localmente
 1. Clone o repositório:
     git clone https://github.com/GabrielNatan2001/teste-dbm.git
@@ -25,3 +29,4 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida
     dotnet test
 4. Com o docker instalado na maquina rode o comando abaixo na raiz do projeto para iniciar as aplicações
     docker-compose up -d
+

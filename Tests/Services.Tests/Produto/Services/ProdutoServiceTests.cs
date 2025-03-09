@@ -149,6 +149,21 @@ namespace Services.Tests.Produto.Services
                 .Where(ex => ex.ErrorMessages.Contains("Preço deve ser maior que zero"));
         }
 
+        [Fact]
+        public async Task Error_Name_Exists()
+        {
+            var repository = new ProdutoRepositoryBuilder();
+            var request = RequestProdutoJsonBuilder.Build();
+            repository.NameExists(request);
+
+            var service = CreateService(repository);
+
+            Func<Task> act = async () => await service.AddAsync(request);
+
+            await act.Should().ThrowAsync<ErrorOnValidationException>()
+                 .Where(ex => ex.ErrorMessages.Contains("Já existe um produto com este nome"));
+        }
+
         private static ProdutoService CreateService(ProdutoRepositoryBuilder reposiotyBuilder = null)
         {
             var repository = new ProdutoRepositoryBuilder();
