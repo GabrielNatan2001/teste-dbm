@@ -1,0 +1,32 @@
+# .NET
+**/bin/
+**/obj/
+
+# User-specific files
+**/.vs/
+**/.vscode/
+**/.idea/
+
+.vs/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+!**/wwwroot/lib

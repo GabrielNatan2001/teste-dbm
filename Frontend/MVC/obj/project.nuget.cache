@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F0zcbh+S2wA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabriel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

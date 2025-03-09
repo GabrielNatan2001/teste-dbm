@@ -1,0 +1,11 @@
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\bin\Debug\net8.0\Communication.deps.json
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\bin\Debug\net8.0\Communication.dll
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\bin\Debug\net8.0\Communication.pdb
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\Communication.AssemblyInfoInputs.cache
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\Communication.AssemblyInfo.cs
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\Communication.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\Communication.dll
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\refint\Communication.dll
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\Communication.pdb
+C:\Users\gabriel\source\repos\TesteTecnicoDBM\Shared\Communication\obj\Debug\net8.0\ref\Communication.dll

@@ -1,0 +1,37 @@
+﻿@model List<Communication.Response.ResponseProdutoJson>
+
+<h2>Lista de Produtos</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Adicionar Novo Produto</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Data de Cadastro</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.Id</td>
+                <td>@produto.Nome</td>
+                <td>@produto.Descricao</td>
+                <td>@produto.Preco.ToString("C")</td>
+                <td>@produto.DataCadastro.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@produto.Id">Detalhes</a> |
+                    <a asp-action="Edit" asp-route-id="@produto.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@produto.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

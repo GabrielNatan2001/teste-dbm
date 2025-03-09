@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|c:\\users\\gabriel\\source\\repos\\testetecnicodbm\\frontend\\mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|solutionrelative:frontend\\mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|c:\\users\\gabriel\\source\\repos\\testetecnicodbm\\frontend\\mvc\\views\\produto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|solutionrelative:frontend\\mvc\\views\\produto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|c:\\users\\gabriel\\source\\repos\\testetecnicodbm\\frontend\\mvc\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|solutionrelative:frontend\\mvc\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|c:\\users\\gabriel\\source\\repos\\testetecnicodbm\\frontend\\mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|solutionrelative:frontend\\mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|c:\\users\\gabriel\\source\\repos\\testetecnicodbm\\frontend\\mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|solutionrelative:frontend\\mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|c:\\users\\gabriel\\source\\repos\\testetecnicodbm\\frontend\\mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B809123-2221-4164-B915-E36A6962D594}|Frontend\\MVC\\MVC.csproj|solutionrelative:frontend\\mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend\\MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Program.cs",
+              "RelativeToolTip": "Frontend\\MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T03:56:51.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Views\\Produto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\MVC\\Views\\Produto\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Views\\Produto\\Edit.cshtml",
+              "RelativeToolTip": "Frontend\\MVC\\Views\\Produto\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T03:56:40.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Frontend\\MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Frontend\\MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T03:55:25.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "Frontend\\MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\appsettings.json",
+              "RelativeToolTip": "Frontend\\MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T03:55:20.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Frontend\\MVC\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\appsettings.Development.json",
+              "RelativeToolTip": "Frontend\\MVC\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T03:52:37.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Frontend\\MVC\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\TesteTecnicoDBM\\Frontend\\MVC\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "Frontend\\MVC\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T03:46:33.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
