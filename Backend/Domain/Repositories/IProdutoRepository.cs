@@ -9,5 +9,6 @@ namespace Domain.Repositories
         Task AddAsync(Produto produto);
         Task UpdateAsync(Produto produto);
         Task DeleteAsync(int id);
+        Task<bool> NameExists(string nome);
     }
 }

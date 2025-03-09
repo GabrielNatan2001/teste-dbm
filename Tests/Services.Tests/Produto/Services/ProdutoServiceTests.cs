@@ -3,9 +3,11 @@ using CommomTestsUtilities.Entities;
 using CommomTestsUtilities.Mapper;
 using CommomTestsUtilities.Repositories;
 using CommomTestsUtilities.Requests;
+using Communication.Requests;
 using Exceptions.ExceptionsBase;
 using FluentAssertions;
 using FluentValidation;
+using System.ComponentModel.DataAnnotations;
 
 namespace Services.Tests.Produto.Services
 {
@@ -116,8 +118,23 @@ namespace Services.Tests.Produto.Services
 
             Func<Task> act = async () => await service.AddAsync(request);
 
-           await act.Should().ThrowAsync<ErrorOnValidationException>();
+           await act.Should().ThrowAsync<ErrorOnValidationException>()
+                .Where(ex => ex.ErrorMessages.Contains("Nome é obrigatório"));
         }
+        [Fact]
+        public async Task Error_Validation_Name_More_100_caracters()
+        {
+            var service = CreateService();
+
+            var request = RequestProdutoJsonBuilder.Build();
+            request.Nome = new string('A', 101);
+
+            Func<Task> act = async () => await service.AddAsync(request);
+
+           var rsult = await act.Should().ThrowAsync<ErrorOnValidationException>()
+                .Where(ex => ex.ErrorMessages.Contains("Nome deve ter no máximo 100 caracteres"));
+        }
+
         [Fact]
         public async Task Error_Validation_Price_invalid()
         {
@@ -128,18 +145,20 @@ namespace Services.Tests.Produto.Services
 
             Func<Task> act = async () => await service.AddAsync(request);
 
-           await act.Should().ThrowAsync<ErrorOnValidationException>();
+           await act.Should().ThrowAsync<ErrorOnValidationException>()
+                .Where(ex => ex.ErrorMessages.Contains("Preço deve ser maior que zero"));
         }
-
 
         private static ProdutoService CreateService(ProdutoRepositoryBuilder reposiotyBuilder = null)
         {
             var repository = new ProdutoRepositoryBuilder();
             var mapper = MapperBuilder.Build();
-            var validation = new ProdutoValidation();
 
             if (reposiotyBuilder != null)
                 repository = reposiotyBuilder;
+
+
+            var validation = new ProdutoValidation(repository.Build());
 
             return new ProdutoService(repository.Build(), validation, mapper);
         }

@@ -44,5 +44,10 @@ namespace Infraestructure.DataAccess.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<bool> NameExists(string nome)
+        {
+            return await _context.Produtos.AnyAsync(x => x.Nome.Equals(nome));
+        }
     }
 }

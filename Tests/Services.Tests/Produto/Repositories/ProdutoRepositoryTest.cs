@@ -1,4 +1,5 @@
 ﻿using CommomTestsUtilities.Entities;
+using Communication.Requests;
 using FluentAssertions;
 using Infraestructure.DataAccess;
 using Infraestructure.DataAccess.Repositories;
